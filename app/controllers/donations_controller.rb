@@ -1,7 +1,11 @@
 class DonationsController < ApplicationController
 
   def home
-
+    @donations = Donation.all
+    total = 0
+    @donations.each {|x| total += x.amount}
+    @total = total
+    @goal_amount = 1000
   end
 
 

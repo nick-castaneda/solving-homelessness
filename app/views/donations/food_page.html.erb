@@ -4,7 +4,18 @@
 <h1>Food is Important</h1>
 
 
+<div class="container">
+  <h3>Donation Progress</h3>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:<%= (@total * 100)/ @goal_amount %>%">
+      <span class="sr-only">70% Complete</span>
+    </div>
+  </div>
+</div>
+
+
 <p>Amount Raised: <%= @total %></p>
 <p>Goal: $<%= @goal_amount%></p>
+
 
 <a href='/food/donate'>DONATE NOW</a>
