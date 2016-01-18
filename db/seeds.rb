@@ -5,3 +5,19 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+10.times do
+  Donation.create(
+    cause: 'food',
+    name: 'Nihn',
+    street_address: '123 chill st.',
+    city: 'Los Angeles',
+    state: 'CA',
+    zip: 91342,
+    cc_type: "Discover",
+    cc_expir: 1219,
+    cc_sec: 143,
+    amount: rand(20)
+  )
+end
