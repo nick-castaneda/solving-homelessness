@@ -30,6 +30,15 @@ body{
 
 /* HOME PAGE STYLES */
 
+h1{
+  font-size: 55px;
+  color: #356237;
+}
+h2{
+  text-align: center;
+  color: #356237;
+}
+
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
     width: 70%;
@@ -56,13 +65,86 @@ body{
   border-color: #dfb02e;
 }
 
+.left{
+  width: 30%;
+  height: 500px;
+}
+.right{
+  width: 60%;
+  height: 500px;
+  li{
+    font-size: 18px;
+  }
+}
+
+#current_focus{
+  border: 5px solid #356237;
+  color: #356237;
+  h2{
+    font-size: 40px;
+  }
+  h3{
+    font-size: 25px;
+  }
+  h5{
+    text-align: center;
+    font-size: 25px;
+  }
+  #current_pics{
+    margin: 0 auto;
+  }
+  .little_pic{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 3px solid #356237;
+    margin: 0 7%;
+    img{
+      width:100%;
+      height:100%;
+    }
+  }
+}
+
+#bar{
+  width: 95%;
+}
+#goal{
+  margin: 0 30%;
+  font-size: 20px;
+}
+
+.progress{
+  width: 100%;
+}
+
+
+
 .section{
+  a{
+    text-decoration: none;
+    font-color: #356237;
+  }
   .section_content{
     h3, h4{
       text-align: center;
     }
     height: 500px;
     .inside_block{
+      .titled{
+        margin: 0 auto;
+      }
+      .info{
+        margin: 0 auto;
+      }
+      .buttt{
+        margin: 0 35%;
+      }
+
+
+
+
+
       margin: 10px 25px;
       display: inline-block;
       img{
@@ -127,7 +209,20 @@ body{
   margin-right: 20px;
 }
 
+#sub_button{
+  margin-left: 43%;
+}
 
+
+#logo{
+  height: 50px;
+  width: 50px;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
 
 
 

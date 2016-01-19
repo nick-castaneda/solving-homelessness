@@ -1,7 +1,8 @@
 
 
 
-<h1 id='main-title'>Because $1 can go a long way in the fight against hunger</h1>
+<h1 id='main-title'>GIVE</h1>
+<h2>Working together to improve our community</h2>
 
 <div class="container">
   <div class='row'>
@@ -17,6 +18,7 @@
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
+      <br><br>
       <div class="item active">
         <img src="http://i.imgur.com/AyqwJBf.jpg" alt="Chania" width="460" height="345">
       </div>
@@ -41,93 +43,98 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+      <br><br><br><br><br><br>
       <div class='section_content' id='current_focus'>
 
-        <div class="container">
-          <h3>Donation Progress</h3>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:<%= (@total * 100)/ @goal_amount %>%">
-              <span class="sr-only">70% Complete</span>
-            </div>
+        <h2>Current Focus: Feeding the homeless</h2>
+        <h5>Because $1 can go a long way in the fight against hunger</h5>
+
+        <div id='current_pics'>
+          <div class='little_pic'>
+            <img src='http://i.imgur.com/O0HF2Og.jpg'>
+          </div>
+          <div class='little_pic'>
+            <img src='http://i.imgur.com/WHLJNnC.jpg'>
+          </div>
+          <div class='little_pic'>
+            <img src='http://i.imgur.com/1X3Cvgb.jpg'>
           </div>
         </div>
 
 
 
-        <div class='inside_block'>
-          <a href='/food'><h3>Feeding the Homeless</h3></a>
-          <img src='http://www.foodnavigator-usa.com/var/plain_site/storage/images/publications/food-beverage-nutrition/foodnavigator-usa.com/markets/us-organic-food-market-to-grow-14-from-2013-18/8668340-1-eng-GB/US-organic-food-market-to-grow-14-from-2013-18.jpg'>
+        <div class="container">
+          <h3>Donation Progress</h3>
+          <div id='bar'>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:<%= (@total * 100)/ @goal_amount %>%">
+                <span class="sr-only">70% Complete</span>
+              </div>
+            </div>
+            <div id='goal'><span>Amount Raised: $<%= @total %></span>&nbsp&nbsp&nbsp
+<span>Goal: $<%= @goal_amount%></span></div>
+          </div>
         </div>
-        <div class='inside_block'>
-          <h4>Facts about feeding homeless</h4>
-          <ul>
-            <li>Fact 1</li>
-            <li>Fact 2</li>
-            <li>Fact 3</li>
-            <li>Fact 4</li>
-            <li>Fact 5</li>
-          </ul>
-          <a href="/food/donate" class="btn btn-primary" role="button">DONATE NOW!</a>
-        </div>
-        <hr>
+
       </div>
 
       <div class='section_content'>
-        <a href='/food'><h3>Support our Schools</h3></a>
-        <div class='inside_block'>
-          <img src='http://www.foodnavigator-usa.com/var/plain_site/storage/images/publications/food-beverage-nutrition/foodnavigator-usa.com/markets/us-organic-food-market-to-grow-14-from-2013-18/8668340-1-eng-GB/US-organic-food-market-to-grow-14-from-2013-18.jpg'>
+        <div class='inside_block left'>
+          <a href='#'><h3>Feeding the Homeless</h3></a>
+          <img src='http://i.imgur.com/O0HF2Og.jpg'>
+          <br><br>
         </div>
-        <div class='inside_block'>
-          <h4>Facts about schools</h4>
-          <ul>
-            <li>Fact 1</li>
-            <li>Fact 2</li>
-            <li>Fact 3</li>
-            <li>Fact 4</li>
-            <li>Fact 5</li>
-          </ul>
-          <a href="/food/donate" class="btn btn-primary" role="button">DONATE NOW!</a>
+        <div class='inside_block right'>
+          <div class='titled'><h4>Facts about feeding homeless</h4></div>
+          <div class='info'><ul>
+            <li>We distribute food and other essentials to children, seniors, families and other individuals in need.</li>
+            <li>We source, acquire and distribute food throughout Los Angeles County through our partnering agencies and programs.</li>
+            <li>For 42 years, the Los Angeles Regional Food Bank has worked to mobilize resources in the community to alleviate hunger.</li>
+            <li>There are an estimated 1.7 million people in Los Angeles County who are food insecure and face hunger daily.</li>
+          </ul></div>
+          <br><br>
+          <div class='buttt'><a href="/food/donate" class="btn btn-primary" role="button">DONATE NOW!</a></div>
         </div>
-        <hr>
       </div>
 
       <div class='section_content'>
-        <a href='/food'><h3>Improving Healthcare</h3></a>
-        <div class='inside_block'>
-          <img src='http://www.foodnavigator-usa.com/var/plain_site/storage/images/publications/food-beverage-nutrition/foodnavigator-usa.com/markets/us-organic-food-market-to-grow-14-from-2013-18/8668340-1-eng-GB/US-organic-food-market-to-grow-14-from-2013-18.jpg'>
+        <div class='inside_block left'>
+          <a href='#'><h3>Support our Schools</h3></a>
+          <img src='http://www.download-free-wallpaper.com/img92/ygabwhghruzuzxauzztl.jpg'>
+          <br><br>
         </div>
-        <div class='inside_block'>
-          <h4>Facts about healthcare</h4>
-          <ul>
-            <li>Fact 1</li>
+        <div class='inside_block right'>
+          <div class='titled'><h4>Facts about school supplies</h4></div>
+          <div class='info'><ul>
+            <li>Teachers spend hundreds of dollars out-of-pocket on basic classroom supplies. Join Ziggedy and get extra cash for your class, at no cost to you or your supporters!</li>
             <li>Fact 2</li>
             <li>Fact 3</li>
             <li>Fact 4</li>
-            <li>Fact 5</li>
-          </ul>
-          <a href="/food/donate" class="btn btn-primary" role="button">DONATE NOW!</a>
+          </ul></div>
+          <br><br>
+          <div class='buttt'><a href="/food/donate" class="btn btn-primary" role="button">DONATE NOW!</a></div>
         </div>
-        <hr>
       </div>
 
       <div class='section_content'>
-        <a href='/food'><h3>Water conservation</h3></a>
-        <div class='inside_block'>
-          <img src='http://www.foodnavigator-usa.com/var/plain_site/storage/images/publications/food-beverage-nutrition/foodnavigator-usa.com/markets/us-organic-food-market-to-grow-14-from-2013-18/8668340-1-eng-GB/US-organic-food-market-to-grow-14-from-2013-18.jpg'>
+        <div class='inside_block left'>
+          <a href='#'><h3>Foster Care Counts</h3></a>
+          <img src='http://www.nasmhpd.org/sites/default/files/childrenFamilies.jpg'>
+          <br><br>
         </div>
-        <div class='inside_block'>
-          <h4>Facts about water conservation</h4>
-          <ul>
-            <li>Fact 1</li>
+        <div class='inside_block right'>
+          <div class='titled'><h4>Facts about feeding homeless</h4></div>
+          <div class='info'><ul>
+            <li>Foster Care Counts is dedicated to helping foster youth fulfill their natural potential.</li>
             <li>Fact 2</li>
             <li>Fact 3</li>
             <li>Fact 4</li>
-            <li>Fact 5</li>
-          </ul>
-          <a href="/food/donate" class="btn btn-primary" role="button">DONATE NOW!</a>
+          </ul></div>
+          <br><br>
+          <div class='buttt'><a href="/food/donate" class="btn btn-primary" role="button">DONATE NOW!</a></div>
         </div>
-        <hr>
       </div>
+
 </div>
 </div>
 </div>

@@ -1,20 +1,31 @@
+<div class='container'>
+<div class='row'>
+
 <div class='col-md-3'></div>
-<div class='col-md-6'>
-  <div class='form-border'>
-    <h1>Donate</h1>
-    <!-- Each tag in this erb form has a name set to "user[attribute]" -->
-    <%= bootstrap_form_for(@donation) do |donation| %>
-        <%= donation.text_field :cause%>
-        <%= donation.text_field :name%>
-        <%= donation.text_field :street_address%>
-        <%= donation.text_field :city%>
-        <%= donation.text_field :state%>
-        <%= donation.text_field :cc_type%>
-        <%= donation.text_field :cc_number%>
-        <%= donation.text_field :cc_expir%>
-        <%= donation.text_field :cc_sec%>
-        <%= donation.text_field :amount%>
-        <%= donation.submit "Submit!", class: "btn btn-primary" %>
-    <% end %>
-  </div>
+    <div class='col-md-6'>
+    <div class="jumbotron" style="color:black;
+  background-color: #84b17f; border-radius: 10%">
+      <div class='form-border'>
+        <h1 style="text-align: center">Donate</h1>
+        <!-- Each tag in this erb form has a name set to "user[attribute]" -->
+        <%= bootstrap_form_for(@donation) do |donation| %>
+            <%= donation.text_field :cause, placeholder: 'Hunger'%>
+            <%= donation.text_field :name, placeholder: 'name'%>
+            <%= donation.text_field :street_address, placeholder: '1933 S Broadway'%>
+            <%= donation.text_field :city, placeholder: 'city'%>
+            <%= donation.text_field :state, placeholder: 'state'%>
+            <%= donation.text_field :cc_type, placeholder: 'Discover'%>
+            <%= donation.text_field :cc_number%>
+            <%= donation.text_field :cc_expir%>
+            <%= donation.text_field :cc_sec%>
+            <%= donation.text_field :amount%>
+            <%= donation.submit "Submit!", class: "btn btn-primary", id: "sub_button" %>
+        <% end %>
+      </div>
+    </div>
+    </div>
+<div class='col-md-3'></div>
+
+
+</div>
 </div>
