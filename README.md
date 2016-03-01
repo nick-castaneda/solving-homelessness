@@ -2,7 +2,7 @@
 # (name of project)
 ### MLK Day Hackathon - Jan 18, 2016
 
-(name of project) is a website that serves as a portal for charity donations. The goal of the site is to raise awareness of important causes and to encourage donations through collective action.
+(name of project) is a website that serves as a portal for charity donations. The goal of the site is to raise awareness of important causes and to encourage donations through collective action. 
 
 (name of project) was the winning project for the General Assembly's Martin Luther King Day Hackathon, a 6-hour competition to create a web application to facilitate social activism.
 
